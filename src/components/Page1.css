@@ -1,0 +1,70 @@
+.main {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+h3 {
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: rgb(130, 71, 255);
+  background-color: white;
+  width: max-content;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 6px 1px;
+  border-radius: 12px;
+  border: 1px solid rgb(175, 157, 214);
+}
+.para-1 {
+  align-items: center;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.para-2{
+    margin-top: 16px;
+    font-size: 36px;
+}
+.para-3{
+    margin-top: 20px;
+    color: rgb(118, 117, 117);
+    font-size: 14px;
+}
+
+.button-1
+{
+    gap: 16px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 24px;
+}
+.start
+{
+    background-color: rgb(130, 71, 255);
+    justify-content: center;
+    padding: 16px 26px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 19px;
+    color: white;
+    border-radius: 20px;
+}
+.demo
+{
+    background-color: white;
+    justify-content: center;
+    padding: 16px 26px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 19px;
+    color: black;
+    border-radius: 20px;
+    border: 2px solid grey;
+}
