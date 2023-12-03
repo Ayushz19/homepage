@@ -4,6 +4,7 @@ import "./Page1.css";
 import image1 from "./image1.webp";
 import image3 from "./image3.webp";
 import image4 from "./image4.webp";
+import image5 from "./image5.webp";
 
 const Page1 = () => {
   return (
@@ -132,7 +133,130 @@ const Page1 = () => {
         </div>
         <div className="cross-box">
           <div className="cross-box-1">
+            <svg
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              width="54"
+              height="54"
+              color='var(--token-25b49406-73f2-421a-adb7-81b18f488918, rgb(253, 242, 236)) /* {"name":"Background"} */'
+            >
+              <path
+                fill-rule="evenodd"
+                d="M7 2a2 2 0 00-2 2v12a2 2 0 002 2h6a2 2 0 002-2V4a2 2 0 00-2-2H7zm3 14a1 1 0 100-2 1 1 0 000 2z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+            <h4 style={{ color: "white" }}>Cross-Platform Compatibility</h4>
+            <p style={{ color: "grey" }}>
+              Enjoy the flexibility of cross-platform compatibility. Our product
+              works seamlessly across desktop, web, and mobile devices, allowing
+              you to work from your preferred device
+            </p>
           </div>
+          <div className="cross-box-1">
+            <svg
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              width="54"
+              height="54"
+              color='var(--token-25b49406-73f2-421a-adb7-81b18f488918, rgb(253, 242, 236)) /* {"name":"Background"} */'
+            >
+              <path
+                fill-rule="evenodd"
+                d="M7 2a2 2 0 00-2 2v12a2 2 0 002 2h6a2 2 0 002-2V4a2 2 0 00-2-2H7zm3 14a1 1 0 100-2 1 1 0 000 2z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+            <h4 style={{ color: "white" }}>Cross-Platform Compatibility</h4>
+            <p style={{ color: "grey" }}>
+              Enjoy the flexibility of cross-platform compatibility. Our product
+              works seamlessly across desktop, web, and mobile devices, allowing
+              you to work from your preferred device
+            </p>
+          </div>
+          <div className="cross-box-1">
+            <svg
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              width="54"
+              height="54"
+              color='var(--token-25b49406-73f2-421a-adb7-81b18f488918, rgb(253, 242, 236)) /* {"name":"Background"} */'
+            >
+              <path
+                fill-rule="evenodd"
+                d="M7 2a2 2 0 00-2 2v12a2 2 0 002 2h6a2 2 0 002-2V4a2 2 0 00-2-2H7zm3 14a1 1 0 100-2 1 1 0 000 2z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+            <h4 style={{ color: "white" }}>Cross-Platform Compatibility</h4>
+            <p style={{ color: "grey" }}>
+              Enjoy the flexibility of cross-platform compatibility. Our product
+              works seamlessly across desktop, web, and mobile devices, allowing
+              you to work from your preferred device
+            </p>
+          </div>
+        </div>
+        <div className="integrations">
+          <h3>Integrations</h3>
+        </div>
+        <div className="enable">
+          <h1 style={{ color: "white" }} className="tools">
+            Enable{" "}
+            <span style={{ color: "rgb(254, 129, 98)" }}>integration</span> with
+            other popular tools and platforms
+          </h1>
+        </div>
+        <div className="para-div">
+          <p className="enable-para" style={{ color: "grey" }}>
+            Seamlessly connect and amplify your workflow by enabling integration
+            with a diverse array of widely-used tools and platforms.
+          </p>
+        </div>
+        <div className="init-image">
+          <img className="int-img" src={image5} />
+        </div>
+      </div>
+      <div className="main-container-4">
+        <div className="section-4">
+          <div className="left-2">
+            <h3>🙋‍♀️ FAQ</h3>
+            <h1>
+              NEED <span style={{ color: "rgb(254, 129, 98)" }}> ANSWERS?</span>
+            </h1>
+            <p style={{ color: "grey" }}>
+              Check out our most commonly asked questions below to find the
+              information you need.
+            </p>
+          </div>
+          <div className="right-2">
+            <div className="row-1">
+              <h2>What is Manage Wise and what does it offer?</h2>
+              <span className="plus">+</span>
+            </div>
+            <div className="row-1">
+              <h2>What is Manage Wise and what does it offer?</h2>
+              <span className="plus">+</span>
+            </div>
+            <div className="row-1">
+              <h2>What is Manage Wise and what does it offer?</h2>
+              <span className="plus">+</span>
+            </div>
+            <div className="row-1">
+              <h2>What is Manage Wise and what does it offer?</h2>
+              <span className="plus">+</span>
+            </div>
+            <div className="row-1">
+              <h2>What is Manage Wise and what does it offer?</h2>
+              <span className="plus">+</span>
+            </div>
+          </div>
+        </div>
+        <div className="price">
+          <h3>💲Pricing</h3>
+        </div>
+        <div className="ideal">
+          <h1>Select your ideal <span style={{ color: "rgb(254, 129, 98)" }}>pricing</span> price </h1>
+          <p style={{fontSize:"20px" , color:"grey"}}>At Manage Wise, we believe in providing you with pricing plans that adapt to your unique needs.</p>
         </div>
       </div>
     </div>
