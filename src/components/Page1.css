@@ -2,7 +2,7 @@
   text-align: center;
   justify-content: center;
   align-items: center;
-  margin-top: 5rem;
+  padding-top: 5rem;
 }
 h3 {
   font-size: 14px;
@@ -18,53 +18,187 @@ h3 {
   border-radius: 12px;
   border: 1px solid rgb(175, 157, 214);
 }
+
 .para-1 {
   align-items: center;
   display: flex;
   text-align: center;
   justify-content: center;
 }
-.para-2{
-    margin-top: 16px;
-    font-size: 36px;
+.para-2 {
+  margin-top: 16px;
+  font-size: 36px;
 }
-.para-3{
-    margin-top: 20px;
-    color: rgb(118, 117, 117);
-    font-size: 14px;
+.para-3 {
+  margin-top: 20px;
+  color: rgb(118, 117, 117);
+  font-size: 14px;
 }
 
-.button-1
-{
-    gap: 16px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    margin-top: 24px;
+.button-1 {
+  gap: 16px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 24px;
 }
-.start
-{
-    background-color: rgb(130, 71, 255);
-    justify-content: center;
-    padding: 16px 26px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 19px;
-    color: white;
-    border-radius: 20px;
+.start {
+  background-color: rgb(130, 71, 255);
+  justify-content: center;
+  padding: 16px 26px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 19px;
+  color: white;
+  border-radius: 20px;
 }
-.demo
+.demo {
+  background-color: white;
+  justify-content: center;
+  padding: 16px 26px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 19px;
+  color: black;
+  border-radius: 20px;
+  border: 2px solid grey;
+}
+.image1-class {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 14px;
+}
+.image1 {
+  display: block;
+  width: 70%;
+  height: auto;
+  border-radius: inherit;
+  object-position: center;
+  object-fit: contain;
+  image-rendering: auto;
+}
+
+.main-container-2 ,.main-container-3 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-top: 5rem;
+}
+.section-2 > * {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.pre {
+  margin-top: 12px;
+}
+.our-pro {
+  margin-top: 24px;
+}
+
+.boost {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-left: 20rem;
+
+  
+}
+.boost-pro {
+  /* width: 50%; */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+
+  line-height: 32px;
+  font-size: 32px;
+}
+.left {
+  width: 30%;
+  height: 45vh;
+  background-color: #ededfa;
+  padding: 20px 32px;
+  border-radius: 32px;
+  font-weight: bold;
+}
+
+.image-3{
+  
+  width: 75%;
+  height: 70%;
+  border-radius: inherit;
+  object-position: center;
+  object-fit: cover;
+  image-rendering: auto;
+}
+.smart-task
 {
-    background-color: white;
-    justify-content: center;
-    padding: 16px 26px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 19px;
-    color: black;
-    border-radius: 20px;
-    border: 2px solid grey;
+display: flex;
+flex-direction: column;
+justify-content: start;
+align-items: self-start;
+margin-left: 32px;
+gap: 10px;
+}
+.three-box
+{
+  display: flex;
+  
+}
+.image4
+{
+  scale: 0.6;
+}
+
+.box-1
+{
+ 
+  padding: 8px 16px;
+  
+  border-radius: 32px;
+}
+.box-inside
+{
+  margin-top: -4rem;
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: start;
+  align-items: self-start; */
+}
+.para-3-2
+{
+  display: flex;
+  flex-direction: column;
+}
+.and-more{
+  color: white;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: rgb(130, 71, 255);
+  background-color: white;
+  width: max-content;
+  
+  padding: 6px 1px;
+  border-radius: 12px;
+  border: 1px solid rgb(175, 157, 214);
+}
+.productivity
+{
+  color: white;
+  font-size: 48px;
+}
+
+.cross-box
+{
+  display: flex;
+  flex-direction: row;
 }
