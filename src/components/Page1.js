@@ -255,8 +255,63 @@ const Page1 = () => {
           <h3>💲Pricing</h3>
         </div>
         <div className="ideal">
-          <h1>Select your ideal <span style={{ color: "rgb(254, 129, 98)" }}>pricing</span> price </h1>
-          <p style={{fontSize:"20px" , color:"grey"}}>At Manage Wise, we believe in providing you with pricing plans that adapt to your unique needs.</p>
+          <h1>
+            Select your ideal{" "}
+            <span style={{ color: "rgb(254, 129, 98)" }}>pricing</span> price{" "}
+          </h1>
+          <p style={{ fontSize: "20px", color: "grey" }}>
+            At Manage Wise, we believe in providing you with pricing plans that
+            adapt to your unique needs.
+          </p>
+        </div>
+        <div className="price-box">
+          <div className="price-box-1">
+            <div>
+              <h3 style={{color:"rgb(254, 129, 98)"}}>free</h3>
+              <span style={{ fontSize: "60px" }}>0$</span> /month
+            </div>
+            <div className="features">
+              <p>Access to all basic features</p>
+              <p>Access to all basic features</p>
+              <p>Access to all basic features</p>
+              <p>Access to all basic features</p>
+            </div>
+            <button className="price-btn">Get Started</button>
+          </div>
+          <div
+            className="price-box-1"
+            style={{ backgroundColor: "black", color: "white" }}
+          >
+            <div>
+            <h3 style={{color:"rgb(254, 129, 98)"}}>Standard</h3>
+              <span style={{ fontSize: "60px" }}>25$</span> /month
+            </div>
+            <div className="features">
+              <p>Access to all basic features</p>
+              <p>Access to all basic features</p>
+              <p>Access to all basic features</p>
+              <p>Access to all basic features</p>
+            </div>
+            <button
+              className="price-btn"
+              style={{ backgroundColor: "rgb(130, 71, 255)" }}
+            >
+              Get Started
+            </button>
+          </div>
+          <div className="price-box-1">
+            <div>
+            <h3 style={{color:"rgb(254, 129, 98)"}}>Business</h3>
+              <span style={{ fontSize: "60px" }}>42$</span> /month
+            </div>
+            <div className="features">
+              <p>Access to all basic features</p>
+              <p>Access to all basic features</p>
+              <p>Access to all basic features</p>
+              <p>Access to all basic features</p>
+            </div>
+            <button className="price-btn">Get Started</button>
+          </div>
         </div>
       </div>
     </div>
